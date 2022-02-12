@@ -26,7 +26,7 @@ namespace QuestionTwo
         /// <param name="numberOfCardsPerSuit">Number of cards per suit</param>
         public HighCard(int numberOfDecks, int numberOfCardsPerSuit)
         {
-            if (numberOfDecks == 0)
+            if (numberOfDecks <= 0)
                 throw new Exception("The number of decks must be greater than 0");
 
             _numberOfDecks = numberOfDecks;
