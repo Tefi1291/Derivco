@@ -1,4 +1,4 @@
-# Derivco
+# Derivco :space_invader:
 
 In this repo you will find a solution to the exam. 
 There are two main console projects, for Question 1 and Question 2 solutions, as well as a unit test project that contains a set of tests for the solutions developed for the exam.
