@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace QuestionOne
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var testString = "This is a test string";
 
@@ -17,11 +14,10 @@ namespace QuestionOne
             {
                 Console.WriteLine("Test succeeded");
             }
-            else 
+            else
             {
                 Console.WriteLine("Test failed");
             }
         }
-
     }
 }

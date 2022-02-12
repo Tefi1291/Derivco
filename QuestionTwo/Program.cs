@@ -1,6 +1,4 @@
 ﻿using CommandLine;
-using System;
-using System.Linq;
 
 namespace QuestionTwo
 {
